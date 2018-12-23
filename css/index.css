@@ -1,0 +1,153 @@
+/*Для біжучого рядка*/
+.art {
+  width: 600px;
+  height: 30px;
+  background: white;
+  color: #000000;
+  font-weight: bold;
+  position: relative;
+  -webkit-animation: mymove 5s infinite; 
+  animation: mymove 5s infinite;
+  font-family:
+Arial Cyr; 
+font-size: 16pt;
+}#div1 {-webkit-animation-timing-function: linear;
+ }
+  @-webkit-keyframes mymove {
+  from {left: 300px;}
+  to {left: 0px;}
+}
+:root {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    max-width: 660px;
+    margin: auto;
+}
+
+/*header p.logo {*/
+/*    font-family: "Arial Black", Gadget, sans-serif, cursive;*/
+/*    font-size: 3rem;*/
+/*    text-align: center;*/
+/*    margin: 0;*/
+/*    }*/
+    
+/*Для назви ТзОВ*/
+
+#p1 {
+      font-style: oblique;
+   font-size: 26px;
+}
+
+/*Для Форми*/
+
+/*document.querySelector('input[type=submit]')*/
+/*  .addEventListener('click', saveText);*/
+
+/*document.querySelector('.load')*/
+/*  .addEventListener('click', loadText);*/
+
+/*function saveText(e) {*/
+/*  e.preventDefault();*/
+/*  localStorage['text'] = text.value;*/
+/*}*/
+
+/*function loadText() {*/
+/*  text.value = localStorage['text'] || '';*/
+/*}*/
+
+
+
+
+
+
+/*@media (min-width: 660px) {*/
+/*    header nav {*/
+/*        display: flex;*/
+/*    }*/
+    
+/*    header nav .logo {*/
+/*        margin-left: 20px;*/
+/*    }*/
+
+
+/*    header nav ul.menu li {*/
+/*        margin: 0 2%;*/
+/*    }*/
+    
+/*    header nav ul.menu li:last-child {*/
+/*        margin-left: auto;*/
+/*        margin-right: 20px;*/
+/*    }*/
+/*}*/
+
+
+/*.button {*/
+    background-color: #4CAF50; /* Green */
+/*    border: none;*/
+/*    color: white;*/
+/*    padding: 16px 32px;*/
+/*    text-align: center;*/
+/*    text-decoration: none;*/
+/*    display: inline-block;*/
+/*    font-size: 16px;*/
+/*    margin: 4px 2px;*/
+    -webkit-transition-duration: 0.4s; /* Safari 
+/*    transition-duration: 0.4s;*/
+/*    cursor: pointer;*/
+/*    background-color: white; */
+/*    color: black; */
+/*    border: 2px solid #4CAF50;*/
+/*}*/
+
+.button:hover {
+    background-color: #4CAF50;
+    color: red;
+}
+
+.btn-default {
+    border-color: yellow;
+}
+
+.btn-default:hover {
+    background-color: yellow;
+}
+
+.product-card {
+    border: 1px solid black;
+    padding: 10px;
+}
+.product-card img {
+    display: block;
+    width: 100%;
+}
+
+.product-card .button-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*@media (min-width: 400px) {*/
+/*    .product-list {*/
+/*        display: grid;*/
+/*        grid-gap: 5px;*/
+/*        grid-template-columns: 1fr 1fr;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 600px) {*/
+/*    .product-list {*/
+/*        grid-template-columns: 1fr 1fr 1fr;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 800px) {*/
+/*    .product-list {*/
+/*        grid-template-columns: 1fr 1fr 1fr 1fr;*/
+/*    }*/
+/*}*/
+
+
+
