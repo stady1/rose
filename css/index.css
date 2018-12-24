@@ -40,27 +40,6 @@ body {
    font-size: 26px;
 }
 
-/*Для Форми*/
-
-/*document.querySelector('input[type=submit]')*/
-/*  .addEventListener('click', saveText);*/
-
-/*document.querySelector('.load')*/
-/*  .addEventListener('click', loadText);*/
-
-/*function saveText(e) {*/
-/*  e.preventDefault();*/
-/*  localStorage['text'] = text.value;*/
-/*}*/
-
-/*function loadText() {*/
-/*  text.value = localStorage['text'] || '';*/
-/*}*/
-
-
-
-
-
 
 /*@media (min-width: 660px) {*/
 /*    header nav {*/
@@ -84,7 +63,7 @@ body {
 
 
 /*.button {*/
-    background-color: #4CAF50; /* Green */
+ /*   background-color: #4CAF50; /* Green */
 /*    border: none;*/
 /*    color: white;*/
 /*    padding: 16px 32px;*/
@@ -93,7 +72,7 @@ body {
 /*    display: inline-block;*/
 /*    font-size: 16px;*/
 /*    margin: 4px 2px;*/
-    -webkit-transition-duration: 0.4s; /* Safari 
+/*    -webkit-transition-duration: 0.4s; /* Safari */
 /*    transition-duration: 0.4s;*/
 /*    cursor: pointer;*/
 /*    background-color: white; */
