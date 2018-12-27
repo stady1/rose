@@ -1,4 +1,4 @@
-/*Для  рядка* звер/*/
+/*Для  заголовка зверху*/
 
 .art {
     width: 100%;
@@ -10,12 +10,9 @@
     font-size: 16pt;
     font-style: oblique;
     text-align: center
-    
 }
 
-
-
-/*Для назви ПРО нас*/
+/*Для назви решти заголовків*/
 
 .art1 {
     width: 100%;
@@ -29,9 +26,9 @@
     
 }
 
-:root {
-    font-family: 'Work Sans', sans-serif;
-}
+/*:root {*/
+/*    font-family: 'Work Sans', sans-serif;*/
+/*}*/
 
 body {
     max-width: 980px;
@@ -86,16 +83,31 @@ nav ul.menu li b:hover {
 
 .product-card {
     border: 1px solid black;
-    padding: 10px;
+    padding: 40px;
 }
 
 .product-card img {
     display: block;
-    width: 100%;
+    width: 50%;
 }
 
 .product-card .button-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 5px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+   padding: 20px 0;
+    font-size: 15px;
 }
