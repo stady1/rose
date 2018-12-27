@@ -96,6 +96,28 @@ nav ul.menu li b:hover {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+/*Обтікання картинки текстом зліва*/
+    .left {
+      float: left;
+      width: 200px;
+      margin: 5px 10px 5px 0;
+      /*text-align: center;*/
+      /*border: 1px solid black;*/
+    }
+
+     .left1 {
+    float:left;
+    width:30%;
+    /*background: #aef;*/
+  }
+
+  .right1 {
+    float:right;
+    width:70%;
+    background: tan;
+  }
+ 
+
 
 .grid-container {
     display: grid;
@@ -106,8 +128,12 @@ nav ul.menu li b:hover {
 }
 
 .grid-container>div {
-    background-color: rgba(255, 255, 255, 0.5);
+    /*background-color: rgba(255, 255, 255, 0.5);*/
     text-align: center;
    padding: 20px 0;
     font-size: 15px;
+}
+.item3 img {
+    /*display: block;*/
+    width: 100%;
 }
