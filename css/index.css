@@ -6,10 +6,10 @@
     background: white;
     color: #000000;
     font-weight: bold;
-    font-family: Arial Cyr;
+    font-family: "Arial Cyr";
     font-size: 16pt;
     font-style: oblique;
-    text-align: center
+    text-align: center;
 }
 
 /*Для назви решти заголовків*/
@@ -19,53 +19,22 @@
     height: 30px;
     background: white;
     color: #000000;
-    font-family: Times New Roman;
+    font-family: "Times New Roman";
     font-size: 16pt;
     font-style: oblique;
-    text-align: center
-    
+    text-align: center;
 }
 
-/*:root {*/
-/*    font-family: 'Work Sans', sans-serif;*/
-/*}*/
+:root {
+
+    font-family: "Times New Roman",'Work Sans', sans-serif;
+
+}
 
 body {
     max-width: 980px;
     margin: auto;
 }
-
-
-
-nav ul.menu {
-    padding-left: 20px;
-    margin-top: 0;
-    display: flex;
-    align-items: center;
-    flex: 1;
-    margin-bottom: 0;
-    justify-content: space-around;
-}
-
-nav ul.menu li {
-    /*list-style: none;*/
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-}
-
-nav ul.menu li a {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-}
-
-nav ul.menu li b:hover {
-    text-decoration: underline;
-}
-
 
 
 .button:hover {
@@ -96,32 +65,32 @@ nav ul.menu li b:hover {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+/*
+.banner {
+    min-height: 500px;
+    background-image: url(../img/krose6.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /*Обтікання картинки текстом зліва*/
-    .left {
-      float: left;
-      width: 200px;
-      margin: 5px 10px 5px 0;
-      /*text-align: center;*/
-      /*border: 1px solid black;*/
-    }
 
-     .left1 {
-    float:left;
-    width:30%;
-    /*background: #aef;*/
-  }
-
-  .right1 {
-    float:right;
-    width:70%;
-    background: tan;
-  }
- 
-
+.left {
+    float: left;
+    width: 200px;
+    margin: 5px 10px 5px 0;
+    /*text-align: center;*/
+    /*border: 1px solid black;*/
+}
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns:30% 30% 30%;
     grid-gap: 10px;
     background-color: white;
     padding: 5px;
@@ -130,9 +99,10 @@ nav ul.menu li b:hover {
 .grid-container>div {
     /*background-color: rgba(255, 255, 255, 0.5);*/
     text-align: center;
-   padding: 20px 0;
+    padding: 20px 0;
     font-size: 15px;
 }
+
 .item3 img {
     /*display: block;*/
     width: 100%;
