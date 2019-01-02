@@ -66,16 +66,16 @@ body {
     flex-wrap: wrap;
 }
 
-/*
-.banner {
-    min-height: 500px;
-    background-image: url(../img/krose6.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
+/*.banner { */
+/*    min-height: 500px;*/
+/*    background-image: url(../img/tit/roses3.jpg);*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
 
 
 /*Обтікання картинки текстом зліва*/
