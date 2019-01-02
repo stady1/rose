@@ -37,45 +37,6 @@ body {
 }
 
 
-.button:hover {
-    background-color: #4CAF50;
-    color: red;
-}
-
-.btn-default {
-    border-color: yellow;
-}
-
-.btn-default:hover {
-    background-color: yellow;
-}
-
-.product-card {
-    border: 1px solid black;
-    padding: 40px;
-}
-
-.product-card img {
-    display: block;
-    width: 50%;
-}
-
-.product-card .button-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-
-/*.banner { */
-/*    min-height: 500px;*/
-/*    background-image: url(../img/tit/roses3.jpg);*/
-/*    background-size: cover;*/
-/*    background-position: center;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*}*/
 
 
 /*Обтікання картинки текстом зліва*/
